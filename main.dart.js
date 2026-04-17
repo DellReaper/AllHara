@@ -56614,7 +56614,8 @@ $S:126}
 A.a0i.prototype={
 $2(a,b){var s=null,r=A.a79(50),q=t.w,p=A.ag(a,s,q).w,o=this.a,n=this.b,m=o.a.c[n].d.length
 q=A.ag(a,s,q).w
-return A.bI(B.F,A.c8(A.a97("#,###").HF(o.a.c[n].d[b].j(0,"price")),s,s,s,A.dn(s,s,B.l,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new A.c5(B.i,s,s,r,s,s,B.M),s,s,B.jd,p.a.a*0.95/m-q.a.a*0.01)},
+o=o.a.c[n].d[b].j(0,"price")===0?"-":A.a97("#,###").HF(o.a.c[n].d[b].j(0,"price"))
+return A.bI(B.F,A.c8(o,s,s,s,A.dn(s,s,B.l,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new A.c5(B.i,s,s,r,s,s,B.M),s,s,B.jd,p.a.a*0.95/m-q.a.a*0.01)},
 $S:47}
 A.Ap.prototype={
 T(a){var s=null,r=A.a5r(s,s,B.Kv,s)
