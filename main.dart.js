@@ -73120,14 +73120,17 @@ var $async$$0=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:for(p=q.a.d,o=p.length,n="",m=0;m<p.length;p.length===o||(0,A.G)(p),++m){l=p[m]
 n=n+"-"+l.d+":\n"
 for(k=l.e,j=k.length,i=0;i<k.length;k.length===j||(0,A.G)(k),++i){h=k[i]
-n=n+(" \u0645\u0642\u0627\u0633: "+A.n(h.h(0,"name"))+", \u0643\u0645\u064a\u0629: "+A.n(h.h(0,"qty")))+"\n"}}g=A.jz("whatsapp://send?phone=9613862689&text="+A.C4(2,"Hello from Flutter!",B.a4,!1),0,null)
-s=4
+n=n+(" \u0645\u0642\u0627\u0633: "+A.n(h.h(0,"name"))+", \u0643\u0645\u064a\u0629: "+A.n(h.h(0,"qty")))+"\n"}}g=A.jz("https://wa.me/9613538783?text="+A.C4(2,n,B.a4,!1),0,null)
+s=5
 return A.Z(A.ajB(g),$async$$0)
-case 4:s=b?2:3
+case 5:s=b?2:4
 break
-case 2:s=5
+case 2:s=6
 return A.Z(A.ajS(g,B.Dr),$async$$0)
-case 5:case 3:return A.Q(null,r)}})
+case 6:s=3
+break
+case 4:throw A.i("Could not launch "+g.k(0))
+case 3:return A.Q(null,r)}})
 return A.R($async$$0,r)},
 $S:24}
 A.YZ.prototype={
