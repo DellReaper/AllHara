@@ -37655,8 +37655,8 @@ s=this.b
 r=B.b.gaP(q.d.f).at
 r.toString
 q=q.d
-if(r<s)q.dK(0,B.R,A.cR(500,0))
-else q.dK(p-s-14,B.R,A.cR(500,0))},
+if(r<s)q.dK(0,B.R,A.cR(0,500))
+else q.dK(p-s-14,B.R,A.cR(0,500))},
 $S:0}
 A.a_I.prototype={
 $0(){var s,r,q=this.b,p=this.a,o=p.d
@@ -37670,7 +37670,7 @@ r.toString
 p=p.d
 if(s-q<r){q=B.b.gaP(p.f).Q
 q.toString
-p.dK(q,B.R,A.cR(500,0))}else p.dK(q+o+14,B.R,A.cR(500,0))},
+p.dK(q,B.R,A.cR(0,500))}else p.dK(q+o+14,B.R,A.cR(0,500))},
 $S:0}
 A.I0.prototype={
 M(a){var s=null,r=A.aG(100,B.k.C()>>>16&255,B.k.C()>>>8&255,B.k.C()&255),q=t.w
@@ -82326,10 +82326,10 @@ B.iq=new A.aH(4e5)
 B.CL=new A.aH(45e3)
 B.CM=new A.aH(5e4)
 B.cR=new A.aH(5e5)
+B.CN=new A.aH(55e4)
 B.dT=new A.aH(6e5)
 B.lE=new A.aH(7e4)
 B.ir=new A.aH(75e3)
-B.CN=new A.aH(75e4)
 B.CO=new A.aH(-38e3)
 B.CP=new A.XP(0,"tonalSpot")
 B.CQ=new A.dv(0,0,0,0)
